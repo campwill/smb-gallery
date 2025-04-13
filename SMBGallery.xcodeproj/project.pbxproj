@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		3DADDD262DAB3A8A0014FC7B /* SMBClient in Frameworks */ = {isa = PBXBuildFile; productRef = 3DADDD252DAB3A8A0014FC7B /* SMBClient */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		3DADDCF42DAB34C50014FC7B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DADDD262DAB3A8A0014FC7B /* SMBClient in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +117,7 @@
 			);
 			name = SMBGallery;
 			packageProductDependencies = (
+				3DADDD252DAB3A8A0014FC7B /* SMBClient */,
 			);
 			productName = SMBGallery;
 			productReference = 3DADDCE62DAB34C30014FC7B /* SMBGallery.app */;
@@ -195,6 +201,9 @@
 			);
 			mainGroup = 3DADDCDD2DAB34C30014FC7B;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				3DADDD242DAB3A8A0014FC7B /* XCRemoteSwiftPackageReference "SMBClient" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 3DADDCE72DAB34C30014FC7B /* Products */;
 			projectDirPath = "";
@@ -558,6 +567,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3DADDD242DAB3A8A0014FC7B /* XCRemoteSwiftPackageReference "SMBClient" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kishikawakatsumi/SMBClient.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3DADDD252DAB3A8A0014FC7B /* SMBClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3DADDD242DAB3A8A0014FC7B /* XCRemoteSwiftPackageReference "SMBClient" */;
+			productName = SMBClient;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3DADDCDE2DAB34C30014FC7B /* Project object */;
 }

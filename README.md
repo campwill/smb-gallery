@@ -40,3 +40,5 @@ Ensure your device is directly connected to the same network as your SMB server 
 
 ## Notes
 This project served as my introduction to Swift, and I intend to develop a more substantial project in the future. I also plan to enhance image interactivity by adding features such as downloading and full-screen viewing.
+
+I would also like to implement SQLite as a data solution. I think that would be cool to try out.

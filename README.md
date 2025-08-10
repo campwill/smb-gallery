@@ -10,6 +10,8 @@ The Apple Files app, when connected to an SMB share, lacks the ability to show t
 
 This app solves that problem by offering a **Gallery View** that shows thumbnail previews of all images within a directory, allowing for quick and easy browsing. Now, you can connect to SMB shares and visually browse your image directories with ease, without needing to open each file individually.
 
+*Image thumbnails for SMB shares were added to the Files app in iOS 26 - I totally came up with the idea before them, just saying.*
+
 ## Features
 - **SMB Share Connectivity**: Connects to user-added SMB servers using the [SMBClient](https://github.com/kishikawakatsumi/SMBClient) Swift library.
 - **Multiple Connections**: Allows users to add and switch between multiple SMB server connections.
